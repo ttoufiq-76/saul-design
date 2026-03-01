@@ -1,0 +1,168 @@
+@media (min-width:320px) and (max-width:575px) {
+  .nav_wrapper {
+   flex-direction: column;
+ 
+}
+
+header nav ul {
+    flex-direction: column;
+     margin: 0 auto;
+}
+header nav ul li {
+ padding: 20px;
+ margin-left: 0px;
+ }
+
+.left-side{
+ margin: 0 auto;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+}
+
+.hero .hero_wrapper h1 {
+    font-size: 30px;
+}
+
+.btn {
+    height: 30px;
+    max-width: 140px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+.btn-2 {
+    height: 30px;
+    max-width: 180px;
+    border-radius: 10px;
+}
+.hero_wrapper {
+   flex-direction: column;
+   padding-top: 60px;
+}
+
+.right-side{
+    max-width: 100%;
+    margin-right: 0px;
+  
+}
+.vector-100 {
+    display: none;
+}
+
+.left-part{
+    margin: 0 auto;
+}
+
+.left-part h1 {
+    margin-bottom: 30px;
+}
+
+
+/* ==================about me starts===================== */
+#aboutme{
+    height: 100vh;
+}
+
+.aboutme_wrapper {
+   flex-direction: column;
+   padding-top: 260px;
+   padding-right: 0px;
+   padding-left: 0px;
+}
+
+.about-img{
+    display: none;
+}
+.divider-two{
+    display: none;
+}
+.part-1 {
+    max-width: 100%;
+  
+}
+.part-1 h1 {
+    font-size: 30px;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.part-1 p {
+    font-size: 14px;
+    width: 100%;
+  padding-bottom: 100px;
+}
+.part-2{
+    width: 100%;
+}
+
+.vector-2{
+    display: none;
+}
+.vector-3{
+    display: none;
+}
+
+
+/* ================work starts ===============================*/
+.work_wrapper {
+    background-image: url(../images/background_work.png);
+    background-size: center;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.images_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.work_wrapper h2 {
+    font-size: 48px;
+}
+
+.btn-3 {
+    width: 42px;
+    padding: 10px 9px;
+    border-radius: 48px;
+}
+
+
+/* ================form starts ===============================*/
+#form {
+   height: auto;
+    padding-top: 60px;
+    
+}
+.form_wrapper {
+    flex-direction: column;
+}
+
+textarea {
+    height: 280px;
+    width: 300px;
+}
+
+.form_section-1 {
+    flex-direction: column;
+}
+
+.vector-186 {
+   display: none;
+}
+.left_form h1 {
+    font-size: 30px;
+}
+/*======== footer starts=============== */
+#footer{
+    padding-top:50px;
+    height: auto;
+}
+.icons-1 {
+    flex-direction: column;
+}
+
+}
